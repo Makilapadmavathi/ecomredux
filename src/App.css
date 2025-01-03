@@ -1,0 +1,188 @@
+/* Ecom Sign Up and Login */
+.ecombackground-image {
+  background-image: url('C:\GT\gt-ecommerce - Redux\src\Images\ecombannernew.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.closebutton{
+  float: right;
+margin-top: 1px;
+
+}
+.navbar-toggler {
+  border: none;  /* Remove the default border */
+}
+
+/* Style for the hamburger icon when the navbar is expanded */
+.navbar-toggler-icon {
+  background-color: white;  /* Change the icon color to white */
+}
+
+/* Change the color of the hamburger icon when expanded */
+.navbar-collapse.show .navbar-toggler-icon {
+  background-color: white;  /* Ensure the color remains white when expanded */
+}
+.ecomcontainer-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.ecomform-container {
+  color: #080808;
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #e9e1e1;
+  border-radius: 5px;
+  background-color: rgb(188, 250, 241);
+  width: 100%;
+}
+
+/* Logo */
+.logo {
+  width: 90px;
+  color: white;
+}
+
+.cart {
+  width: 50px;
+  color: white;
+  padding-right: 10px;
+}
+
+.cartbutton {
+  color: rgb(240, 235, 235);
+  padding-left: 10px;
+}
+
+.cartf {
+  color: azure;
+  padding-top: 1px;
+}
+
+/* Navbar */
+.custom-dropdown {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+/* Product */
+header {
+  padding: 1rem 0;
+}
+
+.main-content {
+  margin-top: 2rem;
+}
+
+.product {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.product-detail {
+  padding: 0 2rem;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 140%;
+}
+
+/* View Product */
+.viewdetail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 50px;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart List */
+.cartlistcontainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  border-radius: 5px;
+  border: 1px solid black;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Filters */
+.filters {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px;
+  height: 86vh;
+}
+
+.filters > span {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.summary {
+  width: 30%;
+}
+
+.productContainer {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.home {
+  display: flex;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .ecomcontainer-center {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .ecomform-container {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .filters {
+    width: 100%;
+    height: auto;
+  }
+
+  .productContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cartlistcontainer {
+    flex-direction: column;
+  }
+}
